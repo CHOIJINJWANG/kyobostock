@@ -1,83 +1,83 @@
-<!--<!DOCTYPE html>-->
+<!DOCTYPE html>
 
-<!--{%load static%}-->
-<!--<html lang="ko">-->
-<!--<head>-->
+{%load static%}
+<html lang="ko">
+<head>
 
-<!--        <meta name="viewport" content="width=device-width, initial-scale=1">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!--        <title>Book-Ranking</title>-->
-<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge" />-->
-<!--    <link rel="stylesheet" href="{%static 'blog/bootstrap/bootstrap.css' %}" media="screen">-->
-<!--    <link rel="stylesheet" href="{%static 'blog/_assets/css/custom.min.css' %}">-->
+        <title>Book-Ranking</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="{%static 'blog/bootstrap/bootstrap.css' %}" media="screen">
+    <link rel="stylesheet" href="{%static 'blog/_assets/css/custom.min.css' %}">
 
-<!--    </head>-->
-<!--    <body>-->
-<!--    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">-->
-<!--    <div class="container">-->
-<!--        <a href="http://localhost:8000" class="navbar-brand">Book-Ranking</a>-->
-<!--        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--            <span class="navbar-toggler-icon"></span>-->
-<!--        </button>-->
-<!--        <div class="collapse navbar-collapse" id="navbarResponsive">-->
-<!--            <ul class="navbar-nav">-->
-<!--                <li class="nav-item dropdown">-->
-<!--                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="themes">온라인 서점 <span class="caret"></span></a>-->
-<!--                    <div class="dropdown-menu" aria-labelledby="themes">-->
-<!--                        <a class="dropdown-item" href="https://book.naver.com/">네이버 북스</a>-->
-<!--                        <div class="dropdown-divider"></div>-->
-<!--                        <a class="dropdown-item" href="http://www.kyobobook.co.kr/index.laf">교보문고</a>-->
-<!--                        <a class="dropdown-item" href="http://www.ypbooks.co.kr/kor_index.yp">영풍문고</a>-->
-<!--                        <a class="dropdown-item" href="https://www.aladin.co.kr/home/welcome.aspx">알라딘</a>-->
-<!--                        <a class="dropdown-item" href="http://www.yes24.com/main/default.aspx">yes24</a>-->
-<!--                    </div>-->
-<!--                </li>-->
+    </head>
+    <body>
+    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <div class="container">
+        <a href="http://localhost:8000" class="navbar-brand">Book-Ranking</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="themes">온라인 서점 <span class="caret"></span></a>
+                    <div class="dropdown-menu" aria-labelledby="themes">
+                        <a class="dropdown-item" href="https://book.naver.com/">네이버 북스</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="http://www.kyobobook.co.kr/index.laf">교보문고</a>
+                        <a class="dropdown-item" href="http://www.ypbooks.co.kr/kor_index.yp">영풍문고</a>
+                        <a class="dropdown-item" href="https://www.aladin.co.kr/home/welcome.aspx">알라딘</a>
+                        <a class="dropdown-item" href="http://www.yes24.com/main/default.aspx">yes24</a>
+                    </div>
+                </li>
 
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="http://localhost:8000/result">오프라인 서점 MAP</a>-->
-<!--                </li>-->
-<!--                <li class="nav-item dropdown">-->
-<!--                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="download">중고서적 장터 <span class="caret"></span></a>-->
-<!--                    <div class="dropdown-menu" aria-labelledby="download">-->
-<!--                        <a class="dropdown-item" target="_blank" href="https://jsfiddle.net/bootswatch/9n4nxnqy/">공지사항</a>-->
-<!--                        <div class="dropdown-divider"></div>-->
-<!--                        <a class="dropdown-item" href="../4/superhero/bootstrap.min.css" download>삽니다</a>-->
-<!--                        <a class="dropdown-item" href="../4/superhero/bootstrap.css" download>팝니다</a>-->
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:8000/result">오프라인 서점 MAP</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="download">중고서적 장터 <span class="caret"></span></a>
+                    <div class="dropdown-menu" aria-labelledby="download">
+                        <a class="dropdown-item" target="_blank" href="https://jsfiddle.net/bootswatch/9n4nxnqy/">공지사항</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../4/superhero/bootstrap.min.css" download>삽니다</a>
+                        <a class="dropdown-item" href="../4/superhero/bootstrap.css" download>팝니다</a>
 
-<!--                    </div>-->
-<!--                </li>-->
+                    </div>
+                </li>
 
-<!--                                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="../help/">Help</a>-->
-<!--                </li>-->
-<!--            </ul>-->
+                                <li class="nav-item">
+                    <a class="nav-link" href="../help/">Help</a>
+                </li>
+            </ul>
 
-<!--        </div>-->
+        </div>
 
-<!--    </div>-->
-<!--</div>-->
+    </div>
+</div>
 
-<!--    <div id="wrap" class="form-group">-->
-<!--        <div id="title" style="margin-left:20%;">-->
-<!--            <h3>BOOK RANKING</h3>-->
-<!--        </div>-->
-<!--        <div id="main" class="form">-->
-<!--            <form action="/select/" method="post" >-->
-<!--                <div class="form-group">-->
-<!--                    {% csrf_token %}-->
-<!--                    <label style="margin-left:20%;">찾고자 하는 수험서를 입력하세요!</label><br>-->
-<!--                    <input type="search" name="title" id="search" class="form-control form-control-lg" type="text" placeholder="What kind of book are you looking for?" id="inputLarge" style="margin-left:20%; text-align:center; width:60%; height:50px; " required>-->
-<!--                    <button type="submit" class="btn btn-primary btn-lg"style="margin-left:45%;">검색</button>-->
-<!--                </div>-->
-<!--            </form>-->
-<!--        </div>-->
+    <div id="wrap" class="form-group">
+        <div id="title" style="margin-left:20%;">
+            <h3>BOOK RANKING</h3>
+        </div>
+        <div id="main" class="form">
+            <form action="/select/" method="post" >
+                <div class="form-group">
+                    {% csrf_token %}
+                    <label style="margin-left:20%;">찾고자 하는 수험서를 입력하세요!</label><br>
+                    <input type="search" name="title" id="search" class="form-control form-control-lg" type="text" placeholder="What kind of book are you looking for?" id="inputLarge" style="margin-left:20%; text-align:center; width:60%; height:50px; " required>
+                    <button type="submit" class="btn btn-primary btn-lg"style="margin-left:45%;">검색</button>
+                </div>
+            </form>
+        </div>
 
-<!--    </div>-->
+    </div>
 
 
-<!--    <script src="{% static 'blog/bootstrap//jquery.min.js'%}"></script>-->
-<!--<script src="{% static 'blog/bootstrap/popper.min.js'%}"></script>-->
-<!--<script src="{% static 'blog/bootstrap/bootstrap.min.js'%}"></script>-->
-<!--<script src="{% static 'blog/_assets/js/custom.js' %}"></script>-->
-<!--    </body>-->
-<!--</html>-->
+    <script src="{% static 'blog/bootstrap//jquery.min.js'%}"></script>
+<script src="{% static 'blog/bootstrap/popper.min.js'%}"></script>
+<script src="{% static 'blog/bootstrap/bootstrap.min.js'%}"></script>
+<script src="{% static 'blog/_assets/js/custom.js' %}"></script>
+    </body>
+</html>
